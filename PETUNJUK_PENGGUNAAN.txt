@@ -1,0 +1,34 @@
+================================================================================
+PETUNJUK PENGGUNAAN WEBSITE DATA MINING CHURROSTIME
+Kode Proposal: PropPD_2401020053
+Semester Ganjil 2026-2027 • UMKM Churrostime Tanjungpinang
+================================================================================
+
+CARA CEPAT MEMBUKA WEBSITE (PILIH SALAH SATU CARA):
+
+CARA 1 (OTOMATIS & PALING MUDAH):
+- Cukup klik ganda (double-click) file 'BUKA_WEBSITE.bat'.
+- Browser Anda akan otomatis terbuka ke: http://localhost:4173
+
+CARA 2 (LANGSUNG BUKA TANPA PERLU RUNNER):
+- Buka folder 'dist'
+- Klik ganda file 'index.html'
+  Website langsung terbuka di Google Chrome / Edge Anda tanpa server.
+
+CARA 3 (MANUAL LEWAT CMD / TERMINAL):
+- Buka Command Prompt / PowerShell di dalam folder ini
+- Jalankan perintah:
+    node server_datamining.js
+- Lalu buka browser dan ketik alamat:
+    http://localhost:4173
+
+SUSUNAN MENU WEBSITE (NAVBAR DI SAMPING KIRI):
+1. Data Transaksi: Unggah berkas Excel/CSV kasir atau agregasi mingguan dari periode mana pun & atur partisi waktu (rasio atau cut-off tanggal).
+2. Model Regresi OLS: Persamaan linier parsial 5 varian, kurva tren, metrik MAE/RMSE vs baseline, dan diagnosis dinamis.
+3. Kalkulator Prediksi: Simulasi proyeksi penjualan porsi churros mingguan ke depan beserta rentang toleransi (±MAE) dan lembar cetak.
+4. Evaluasi Kasus: Perbandingan aktual vs prediksi OLS, analisis dinamika antarvarian, serta rekomendasi operasional.
+
+Catatan:
+Seluruh aset website sudah terkompilasi mandiri di folder 'dist'.
+Semua fitur berjalan 100% offline tanpa perlu koneksi internet.
+================================================================================
