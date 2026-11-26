@@ -41,7 +41,7 @@ export default function ProposalView() {
             </a>
 
             <a
-              href="/SiapMining_2401020053.xlsx"
+              href="/DATA CHURROSTIME.xlsx"
               download
               className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 rounded-lg text-xs font-medium transition-colors"
             >

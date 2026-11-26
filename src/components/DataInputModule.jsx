@@ -32,7 +32,7 @@ export default function DataInputModule({
   onProceedToEvaluation
 }) {
   const [fileLoading, setFileLoading] = useState(false);
-  const [fileName, setFileName] = useState(currentDataState?.sourceName || 'SiapMining_2401020053.xlsx');
+  const [fileName, setFileName] = useState(currentDataState?.sourceName || 'DATA CHURROSTIME.xlsx');
   const [splitMode, setSplitMode] = useState(currentDataState?.splitMode || 'ratio');
   const [cutOffDate, setCutOffDate] = useState(currentDataState?.effectiveCutOffDate || '2026-08-01');
   const [splitRatio, setSplitRatio] = useState(currentDataState?.splitRatio ?? 80);
@@ -414,7 +414,7 @@ export default function DataInputModule({
             <button
               onClick={() => {
                 onLoadSampleData();
-                setFileName('SiapMining_2401020053.xlsx');
+                setFileName('DATA CHURROSTIME.xlsx');
                 setCutOffDate('2026-08-01');
                 setSplitRatio(80);
                 setSplitMode('ratio');
@@ -590,7 +590,7 @@ export default function DataInputModule({
         </div>
 
         <a
-          href="./SiapMining_2401020053.xlsx"
+          href="./DATA CHURROSTIME.xlsx"
           download
           className="px-3 py-1 bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 rounded text-xs font-medium transition-colors flex items-center gap-1.5"
         >

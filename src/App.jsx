@@ -38,7 +38,7 @@ const getInitialChurrosState = () => {
   });
 
   return {
-    sourceName: 'SiapMining_2401020053.xlsx',
+    sourceName: 'DATA CHURROSTIME.xlsx',
     rawCount: 2209,
     trainWeeksCount: 40,
     testWeeksCount: 8,
